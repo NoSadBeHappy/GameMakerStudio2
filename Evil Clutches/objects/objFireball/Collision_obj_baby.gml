@@ -6,4 +6,4 @@ instance_destroy();
 
 global.score += -5
 
-global.bosshealth += 20
+global.bosshealth += 5
