@@ -4,8 +4,8 @@ draw_set_colour($FFAE00FF & $ffffff);
 var l4F6B1AEF_0=($FFAE00FF >> 24);
 draw_set_alpha(l4F6B1AEF_0 / $ff);
 
-if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
-draw_text(0, 0, string("Score: ") + string(__dnd_score));
+if(!global.score) global.score = 0;
+draw_text(0, 0, string("Score: ") + string(global.score));
 
 if(health == 3)
 {

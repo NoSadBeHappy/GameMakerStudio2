@@ -1,24 +1,8 @@
-/// @DnDAction : YoYo Games.Instance Variables.Set_Score
-/// @DnDVersion : 1
-/// @DnDHash : 48512754
-
-__dnd_score = real(0);
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 2C70BCB3
-/// @DnDArgument : "var" "canShoot"
+//init canShoot variable for a fireball limiter timer
 canShoot = 0;
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 120D68AA
-/// @DnDArgument : "expr" "3"
-/// @DnDArgument : "var" "health"
+//init health variable for dragon
 health = 3;
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 1D09D817
-/// @DnDArgument : "var" "babys_caught"
+//init babys caught variable for health regen
 babys_caught = 0;
+//init global score
+global.score = 0

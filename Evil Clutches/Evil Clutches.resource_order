@@ -39,6 +39,7 @@
     {"name":"sprDragon","order":1,"path":"sprites/sprDragon/sprDragon.yy",},
     {"name":"sprBoss","order":2,"path":"sprites/sprBoss/sprBoss.yy",},
     {"name":"sptOkButton","order":11,"path":"sprites/sptOkButton/sptOkButton.yy",},
+    {"name":"ScoreENDGAME","order":1,"path":"fonts/ScoreENDGAME/ScoreENDGAME.yy",},
     {"name":"splashscreen","order":3,"path":"rooms/splashscreen/splashscreen.yy",},
     {"name":"sprDemon","order":4,"path":"sprites/sprDemon/sprDemon.yy",},
   ],

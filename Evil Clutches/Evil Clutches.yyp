@@ -58,6 +58,7 @@
     {"id":{"name":"sprDragon","path":"sprites/sprDragon/sprDragon.yy",},"order":1,},
     {"id":{"name":"sprBoss","path":"sprites/sprBoss/sprBoss.yy",},"order":2,},
     {"id":{"name":"sptOkButton","path":"sprites/sptOkButton/sptOkButton.yy",},"order":11,},
+    {"id":{"name":"ScoreENDGAME","path":"fonts/ScoreENDGAME/ScoreENDGAME.yy",},"order":0,},
     {"id":{"name":"splashscreen","path":"rooms/splashscreen/splashscreen.yy",},"order":3,},
     {"id":{"name":"sprDemon","path":"sprites/sprDemon/sprDemon.yy",},"order":4,},
     {"id":{"name":"objDragon","path":"objects/objDragon/objDragon.yy",},"order":0,},
