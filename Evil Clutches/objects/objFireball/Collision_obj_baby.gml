@@ -26,3 +26,14 @@ with(objDragon) {
 if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
 __dnd_score += real(-5);
 }
+
+/// @DnDAction : YoYo Games.Instance Variables.Set_Health
+/// @DnDVersion : 1
+/// @DnDHash : 155C299D
+/// @DnDApplyTo : {objDemon}
+/// @DnDArgument : "health" "15"
+/// @DnDArgument : "health_relative" "1"
+with(objDemon) {
+if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
+__dnd_health += real(15);
+}

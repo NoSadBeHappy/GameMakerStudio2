@@ -1,10 +1,5 @@
+//adds canShoot variable and increments by 2 every step, used in event key press space.
 canShoot += 2;
-//Sets score, and ends the game if score is > 500
-if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
-if(__dnd_score >= 500)
-{
-	room_goto(end_screen);
-}
 //displays health in the form of hearts on screen
 if(health < 1)
 {

@@ -14,3 +14,10 @@ direction = choose(90,270);
 /// @DnDHash : 37AFFAAF
 /// @DnDArgument : "speed" "6"
 speed = 6;
+
+/// @DnDAction : YoYo Games.Instance Variables.Set_Health
+/// @DnDVersion : 1
+/// @DnDHash : 607FB398
+/// @DnDArgument : "health" "100"
+
+__dnd_health = real(100);
