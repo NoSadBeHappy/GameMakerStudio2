@@ -1,2 +1,2 @@
-if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
-draw_healthbar(x + 0, y + -25, x + 135, y + 0, __dnd_health, $FFFFFFFF, $FF0000FF & $FFFFFF, $FF09FF05 & $FFFFFF, 0, (($FFFFFFFF>>24) != 0), (($FF000000>>24) != 0));
+if(!global.bosshealth) global.bosshealth = 0;
+draw_healthbar(x + 0, y + -25, x + 135, y + 0, global.bosshealth, $FFFFFFFF, $FF0000FF & $FFFFFF, $FF09FF05 & $FFFFFF, 0, (($FFFFFFFF>>24) != 0), (($FF000000>>24) != 0));

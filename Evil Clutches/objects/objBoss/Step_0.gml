@@ -13,7 +13,7 @@ if(spawn_baby <= 2)
 	instance_create_layer(x + 0, y + 0, "Instances", obj_baby);
 }
 //if the boss is dead, then go to the end screen and display the score
-if (__dnd_health < 1)
+if (global.bosshealth < 1)
 {
 	room_goto(end_screen)
 	
