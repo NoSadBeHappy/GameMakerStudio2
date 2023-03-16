@@ -4,12 +4,9 @@
   "name": "Clown",
   "resources": [
     {"id":{"name":"sptBall","path":"sprites/sptBall/sptBall.yy",},"order":1,},
-    {"id":{"name":"objWallright","path":"objects/objWallright/objWallright.yy",},"order":0,},
-    {"id":{"name":"objWalltop","path":"objects/objWalltop/objWalltop.yy",},"order":0,},
     {"id":{"name":"objBall","path":"objects/objBall/objBall.yy",},"order":1,},
     {"id":{"name":"sptWall","path":"sprites/sptWall/sptWall.yy",},"order":0,},
-    {"id":{"name":"objWallleft","path":"objects/objWallleft/objWallleft.yy",},"order":0,},
-    {"id":{"name":"objWallbottom","path":"objects/objWallbottom/objWallbottom.yy",},"order":0,},
+    {"id":{"name":"objWall","path":"objects/objWall/objWall.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [

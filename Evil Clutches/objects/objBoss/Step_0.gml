@@ -20,3 +20,8 @@ if (global.bosshealth < 1)
 if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
 draw_text(320, 8, string("Score: ") + string(__dnd_score));
 }
+
+if (global.bosshealth > 100)
+{
+	global.bosshealth = 100
+}

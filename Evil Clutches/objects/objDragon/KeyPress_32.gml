@@ -3,8 +3,8 @@
 /// @DnDHash : 2F7EDEC0
 /// @DnDArgument : "var" "canShoot"
 /// @DnDArgument : "op" "4"
-/// @DnDArgument : "value" "20"
-if(canShoot >= 20)
+/// @DnDArgument : "value" "14"
+if(canShoot >= 14)
 {
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
